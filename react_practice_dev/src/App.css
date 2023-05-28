@@ -1,0 +1,21 @@
+.App{
+  padding: 5px;
+  margin: auto;
+  border: 2px solid black;
+  /* display: flex; */
+  /* flex-direction: row; */
+}
+
+.card{
+  border: 2px solid red;
+  padding: 5px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.innerCard{
+  border: 2px solid green;
+  margin: 1rem;
+  padding: 1rem;
+}
