@@ -4,10 +4,39 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+// 
+
+import Numbers from './components/Numbers.jsx'
+
+import Count from './components/Count';
+
+import ClassComponent from './components/ClassComponent';
+
+import Parent from './components/Parent';
+
+
+import EventHandling from './components/EventHandling';
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+{/* 
+    <Numbers/>
+
+    <Count/>
+
+    <ClassComponent/>
+
+    <Parent/> */}
+
+    <EventHandling/>
+
+
+    
+
   </React.StrictMode>
 );
 
