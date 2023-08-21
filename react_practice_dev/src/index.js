@@ -18,6 +18,10 @@ import Parent from './components/Parent';
 
 import EventHandling from './components/EventHandling';
 
+import KeysReact from './components/KeysReact';
+
+import Forms from './components/Forms'
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -32,7 +36,11 @@ root.render(
 
     <Parent/> */}
 
-    <EventHandling/>
+    {/* <EventHandling/> */}
+
+    {/* <KeysReact /> */}
+
+    <Forms/>
 
 
     
